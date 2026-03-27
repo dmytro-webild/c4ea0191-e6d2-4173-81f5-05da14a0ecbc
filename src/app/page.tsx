@@ -30,17 +30,11 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Features",
-          id: "#features",
-        },
+          name: "Features",          id: "#features"},
         {
-          name: "How It Works",
-          id: "#how-it-works",
-        },
+          name: "How It Works",          id: "#how-it-works"},
         {
-          name: "Why Us",
-          id: "#why-us",
-        },
+          name: "Why Us",          id: "#why-us"},
       ]}
       brandName="PurrPod"
     />
@@ -50,47 +44,29 @@ export default function LandingPage() {
       <HeroSplitTestimonial
       useInvertedBackground={false}
       background={{
-        variant: "sparkles-gradient",
-      }}
+        variant: "sparkles-gradient"}}
       title="A new universe of cat care."
       description="The first stress-free grooming system designed for cats. Experience a spa-like cleaning process in the comfort of your home."
       testimonials={[
         {
-          name: "Dr. Aris",
-          handle: "@vetpro",
-          testimonial: "Finally, a solution that respects feline behavior.",
-          rating: 5,
+          name: "Dr. Aris",          handle: "@vetpro",          testimonial: "Finally, a solution that respects feline behavior.",          rating: 5,
         },
         {
-          name: "Sarah J.",
-          handle: "@catmom",
-          testimonial: "My Persian cat actually purrs during the grooming cycle now.",
-          rating: 5,
+          name: "Sarah J.",          handle: "@catmom",          testimonial: "My Persian cat actually purrs during the grooming cycle now.",          rating: 5,
         },
         {
-          name: "Mark D.",
-          handle: "@techpet",
-          testimonial: "Incredible engineering. The foam system is a game changer.",
-          rating: 4,
+          name: "Mark D.",          handle: "@techpet",          testimonial: "Incredible engineering. The foam system is a game changer.",          rating: 4,
         },
         {
-          name: "Elena R.",
-          handle: "@felinestylist",
-          testimonial: "Professional results without the stress of water. Highly recommended.",
-          rating: 5,
+          name: "Elena R.",          handle: "@felinestylist",          testimonial: "Professional results without the stress of water. Highly recommended.",          rating: 5,
         },
         {
-          name: "Liam K.",
-          handle: "@purepurr",
-          testimonial: "Clean, quiet, and my cat loves the treat dispenser feature.",
-          rating: 5,
+          name: "Liam K.",          handle: "@purepurr",          testimonial: "Clean, quiet, and my cat loves the treat dispenser feature.",          rating: 5,
         },
       ]}
       buttons={[
         {
-          text: "Join Waitlist",
-          href: "#contact",
-        },
+          text: "Join Waitlist",          href: "#contact"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/uploaded-1774648078170-nqhj3qna.jpg"
       imageAlt="PurrPod Grooming System"
@@ -119,22 +95,13 @@ export default function LandingPage() {
       features={[
         {
           id: 1,
-          title: "Foam Cleaning",
-          description: "Gentle, moisturizing cleansing foam.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png?_wi=1",
-        },
+          title: "Foam Cleaning",          description: "Gentle, moisturizing cleansing foam.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png?_wi=1"},
         {
           id: 2,
-          title: "Rotating Brushes",
-          description: "Soft silicone brushes clear debris.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png?_wi=1",
-        },
+          title: "Rotating Brushes",          description: "Soft silicone brushes clear debris.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png?_wi=1"},
         {
           id: 3,
-          title: "Air Drying",
-          description: "Quiet airflow leaves coat fluffy.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png?_wi=1",
-        },
+          title: "Air Drying",          description: "Quiet airflow leaves coat fluffy.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png?_wi=1"},
       ]}
       title="The Stress-Free Solution."
       description="Using low-moisture foam-based technology, the PurrPod cleans your cat without immersion."
@@ -148,25 +115,13 @@ export default function LandingPage() {
       tag="Simple Automation"
       metrics={[
         {
-          id: "step1",
-          value: "1",
-          description: "Voluntary Entry",
-        },
+          id: "step1",          value: "1",          description: "Voluntary Entry"},
         {
-          id: "step2",
-          value: "2",
-          description: "Foam & Scrub",
-        },
+          id: "step2",          value: "2",          description: "Foam & Scrub"},
         {
-          id: "step3",
-          value: "3",
-          description: "Gentle Mist",
-        },
+          id: "step3",          value: "3",          description: "Gentle Mist"},
         {
-          id: "step4",
-          value: "4",
-          description: "Air Dry",
-        },
+          id: "step4",          value: "4",          description: "Air Dry"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -180,22 +135,13 @@ export default function LandingPage() {
       features={[
         {
           id: 4,
-          title: "Anxiety-Free",
-          description: "Transparent enclosure to keep them calm.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png?_wi=2",
-        },
+          title: "Anxiety-Free",          description: "Transparent enclosure to keep them calm.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png?_wi=2"},
         {
           id: 5,
-          title: "Treat Portal",
-          description: "Built-in treat station for positive reinforcement.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png?_wi=2",
-        },
+          title: "Treat Portal",          description: "Built-in treat station for positive reinforcement.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png?_wi=2"},
         {
           id: 6,
-          title: "Quiet Operation",
-          description: "Engineered for near-silent use.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png?_wi=2",
-        },
+          title: "Quiet Operation",          description: "Engineered for near-silent use.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png?_wi=2"},
       ]}
       title="Designed for Comfort"
       description="Built from the ground up for our feline friends."
@@ -219,14 +165,11 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "sparkles-gradient",
-      }}
+        variant: "sparkles-gradient"}}
       text="Be the first to experience PurrPod."
       buttons={[
         {
-          text: "Join Waitlist",
-          href: "#",
-        },
+          text: "Secure Your Early Access",          href: "#"},
       ]}
     />
   </div>
