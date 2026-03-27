@@ -171,6 +171,8 @@ export default function LandingPage() {
         {
           text: "Secure Your Early Access",          href: "#"},
       ]}
+      className="bg-gradient-to-br from-blue-900/40 via-purple-900/20 to-black/80 backdrop-blur-md border border-white/10 shadow-[0_0_50px_-10px_rgba(59,130,246,0.3)]"
+      buttonClassName="shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)] transition-all duration-300"
     />
   </div>
 
