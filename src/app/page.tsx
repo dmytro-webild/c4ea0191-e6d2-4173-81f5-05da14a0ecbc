@@ -121,19 +121,19 @@ export default function LandingPage() {
           id: 1,
           title: "Foam Cleaning",
           description: "Gentle, moisturizing cleansing foam.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png?_wi=1",
         },
         {
           id: 2,
           title: "Rotating Brushes",
           description: "Soft silicone brushes clear debris.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png?_wi=1",
         },
         {
           id: 3,
           title: "Air Drying",
           description: "Quiet airflow leaves coat fluffy.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png?_wi=1",
         },
       ]}
       title="The Stress-Free Solution."
@@ -182,19 +182,19 @@ export default function LandingPage() {
           id: 4,
           title: "Anxiety-Free",
           description: "Transparent enclosure to keep them calm.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png?_wi=2",
         },
         {
           id: 5,
           title: "Treat Portal",
           description: "Built-in treat station for positive reinforcement.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png?_wi=2",
         },
         {
           id: 6,
           title: "Quiet Operation",
           description: "Engineered for near-silent use.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png?_wi=2",
         },
       ]}
       title="Designed for Comfort"
