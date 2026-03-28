@@ -42,8 +42,8 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "sparkles-gradient"}}
-      title="A new universe of cat care."
-      description="The first stress-free grooming system designed for cats. Experience a spa-like cleaning process in the comfort of your home."
+      title="Effortless grooming, happy cats."
+      description="Introducing the world's first automated grooming suite. Using advanced foam-delivery and quiet-dry technology, PurrPod provides a spa-grade cleaning experience that feline biology actually loves—all without the stress of water."
       testimonials={[
         {
           name: "Dr. Aris",          handle: "@vetpro",          testimonial: "Finally, a solution that respects feline behavior.",          rating: 5,
@@ -62,8 +62,7 @@ export default function LandingPage() {
         },
       ]}
       buttons={[
-        {
-          text: "Join Waitlist",          href: "#contact"},
+        { text: "Secure Early Access", href: "#contact" },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/uploaded-1774648078170-nqhj3qna.jpg"
       imageAlt="PurrPod Grooming System"
@@ -74,10 +73,10 @@ export default function LandingPage() {
   <div id="problem" data-section="problem">
       <TestimonialAboutCard
       useInvertedBackground={false}
-      tag="The Reality"
-      title="Bathing shouldn't be a battle."
-      description="Most cats find water terrifying. Traditional bathing is stressful for pets, messy for owners, and often physically draining."
-      subdescription="We recognized that forcing cats into water ignores their nature, so we built something better."
+      tag="The Problem"
+      title="Bathing cats is a struggle for a reason."
+      description="Cat skin and behavior aren't built for full submersion. Traditional bathing forces cats into a state of panic, leading to scratches, hair matting, and long-term anxiety toward grooming."
+      subdescription="We replaced the bathtub with a gentle, sensory-tuned pod environment, turning a traumatic chore into a calm, voluntary spa routine."
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/uploaded-1774648078171-ww76rqp4.png"
       mediaAnimation="blur-reveal"
       icon={AlertTriangle}
@@ -92,16 +91,16 @@ export default function LandingPage() {
       features={[
         {
           id: 1,
-          title: "Foam Cleaning",          description: "Gentle, moisturizing cleansing foam.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png?_wi=1"},
+          title: "Advanced Foam-Tech",          description: "Our dry-clean cleansing foam lifts dander and dirt instantly, keeping the coat pristine without water immersion.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png?_wi=1"},
         {
           id: 2,
-          title: "Rotating Brushes",          description: "Soft silicone brushes clear debris.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png?_wi=1"},
+          title: "Soft-Silicone Massage",          description: "Custom-molded rotating brushes mimic natural feline social grooming, soothing nerves while removing loose fur.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png?_wi=1"},
         {
           id: 3,
-          title: "Air Drying",          description: "Quiet airflow leaves coat fluffy.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png?_wi=1"},
+          title: "Whisper-Quiet Airflow",          description: "Engineered airflow dries and fluffs the coat at low decibels, ensuring your cat feels relaxed rather than startled.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png?_wi=1"},
       ]}
-      title="The Stress-Free Solution."
-      description="Using low-moisture foam-based technology, the PurrPod cleans your cat without immersion."
+      title="Science-backed care."
+      description="Our proprietary 'Low-Moisture Grooming' system maintains coat health and hygiene, perfectly matching your cat's natural grooming instincts."
     />
   </div>
 
@@ -112,13 +111,13 @@ export default function LandingPage() {
       tag="Simple Automation"
       metrics={[
         {
-          id: "step1",          value: "1",          description: "Voluntary Entry"},
+          id: "step1",          value: "1",          description: "Voluntary Entry - Entry through a secure, scent-friendly gate."},
         {
-          id: "step2",          value: "2",          description: "Foam & Scrub"},
+          id: "step2",          value: "2",          description: "Deep Foam Clean - Moisturizing foam targets dander and dirt."},
         {
-          id: "step3",          value: "3",          description: "Gentle Mist"},
+          id: "step3",          value: "3",          description: "Gentle Mist - Rinses away residue with minimal dampness."},
         {
-          id: "step4",          value: "4",          description: "Air Dry"},
+          id: "step4",          value: "4",          description: "Soft Air Dry - Final fluff-dry leaves the coat salon-ready."},
       ]}
       metricsAnimation="slide-up"
     />
@@ -132,26 +131,26 @@ export default function LandingPage() {
       features={[
         {
           id: 4,
-          title: "Anxiety-Free",          description: "Transparent enclosure to keep them calm.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png?_wi=2"},
+          title: "Calming Enclosure",          description: "Designed with clear, non-restrictive materials to prevent claustrophobia while maintaining pet safety.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-a-high-tech--1774648103812-21556c21.png?_wi=2"},
         {
           id: 5,
-          title: "Treat Portal",          description: "Built-in treat station for positive reinforcement.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png?_wi=2"},
+          title: "Positive Reinforcement",          description: "Integrated treat portal provides immediate rewards, building confidence and positive association with every cycle.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-close-up-shot-of-soft-rotatin-1774648103700-522712ff.png?_wi=2"},
         {
           id: 6,
-          title: "Quiet Operation",          description: "Engineered for near-silent use.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png?_wi=2"},
+          title: "Noise-Canceling Tech",          description: "Acoustic housing ensures the system operates in the background, making it perfect for sensitive feline ears.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/futuristic-shot-of-air-drying-system-noz-1774648103279-8244ec5d.png?_wi=2"},
       ]}
-      title="Designed for Comfort"
-      description="Built from the ground up for our feline friends."
+      title="Precision engineered."
+      description="We prioritized a fear-free experience, incorporating features that reinforce calm behaviors and comfort."
     />
   </div>
 
   <div id="why-us" data-section="why-us">
       <TestimonialAboutCard
       useInvertedBackground={false}
-      tag="Why PurrPod"
-      title="Built for Cats"
-      description="We didn't just shrink a dog washing station; we researched cat biology and behavioral cues."
-      subdescription="No water immersion, no stress, total hygiene."
+      tag="The PurrPod Standard"
+      title="Expertly built for feline biology."
+      description="Our development team consulted with leading veterinarians to map every touchpoint of feline comfort. PurrPod isn't just a gadget—it's a holistic grooming health solution."
+      subdescription="We emphasize non-invasive cleaning methods that protect skin oils and reduce allergens, keeping your cat healthy and your home hair-free."
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BXuGbYiBPJwGZpnezbrTF9xIQt/uploaded-1774648078171-oy8ncso2.png"
       mediaAnimation="slide-up"
       icon={Heart}
@@ -166,7 +165,7 @@ export default function LandingPage() {
       text="Ready to revolutionize your grooming routine? Get early access to the future of feline hygiene."
       buttons={[
         {
-          text: "Secure Your Early Access",          href: "#"},
+          text: "Get Early Access",          href: "#"},
       ]}
       className="bg-gradient-to-br from-blue-900/40 via-purple-900/20 to-black/80 backdrop-blur-md border border-white/10 shadow-[0_0_50px_-10px_rgba(59,130,246,0.3)]"
       buttonClassName="shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:shadow-[0_0_30px_rgba(59,130,246,0.8)] transition-all duration-300"
