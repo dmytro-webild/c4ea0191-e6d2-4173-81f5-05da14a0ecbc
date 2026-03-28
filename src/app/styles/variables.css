@@ -10,14 +10,14 @@
   --accent: #ffffff;
   --background-accent: #ffffff; */
 
-  --background: #05070a;
-  --card: #0f1520;
-  --foreground: #e1e7f0;
-  --primary-cta: #4f46e5;
+  --background: #05030f;
+  --card: #120f26;
+  --foreground: #eef2ff;
+  --primary-cta: #8b5cf6;
   --primary-cta-text: #0A1128;
-  --secondary-cta: #1e293b;
+  --secondary-cta: #4c1d95;
   --secondary-cta-text: #EAF4FF;
-  --accent: #8b5cf6;
+  --accent: #c4b5fd;
   --background-accent: #1e1b4b;
 
   /* text sizing - set by ThemeProvider */
